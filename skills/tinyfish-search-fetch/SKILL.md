@@ -1,6 +1,6 @@
 ---
 name: tinyfish-search-fetch
-description: Search the live web for fresh URLs or fetch clean page content via TinyFish when you need current facts, verify a claim, or read a JS-heavy page.
+description: Use when searching the web for URLs or fetching page content into clean markdown via TinyFish.
 ---
 
 # TinyFish Search + Fetch
