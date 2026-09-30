@@ -7,7 +7,7 @@ Live web search and page fetch via TinyFish MCP. Free at any wallet balance.
 One command via the Agent Plugins installer. It auto-detects your agents and installs to all of them:
 
 ```bash
-npx plugins add <you>/tinyfish-agentplugin
+npx plugins add atpaawej/tinyfish-agentplugin
 ```
 
 Pick agents on the go:
@@ -16,18 +16,18 @@ Pick agents on the go:
 npx plugins targets
 # shows Claude Code (claude binary on PATH), Cursor (cursor + claude binaries)
 
-npx plugins add <you>/tinyfish-agentplugin -t claude-code
-npx plugins add <you>/tinyfish-agentplugin -t cursor
+npx plugins add atpaawej/tinyfish-agentplugin -t claude-code
+npx plugins add atpaawej/tinyfish-agentplugin -t cursor
 ```
 
 Dry run first, skip prompts, set scope:
 
 ```bash
 npx plugins discover <you>/tinyfish-agentplugin
-npx plugins add <you>/tinyfish-agentplugin -y
-npx plugins add <you>/tinyfish-agentplugin -s user
-npx plugins add <you>/tinyfish-agentplugin -s project
-npx plugins add <you>/tinyfish-agentplugin -s local
+npx plugins add atpaawej/tinyfish-agentplugin -y
+npx plugins add atpaawej/tinyfish-agentplugin -s user
+npx plugins add atpaawej/tinyfish-agentplugin -s project
+npx plugins add atpaawej/tinyfish-agentplugin -s local
 ```
 
 Local path works too:
